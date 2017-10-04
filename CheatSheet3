@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de";
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CheatSheet3</title>
+	</head>
+	</body>
+	    <!-- Sichtbarer Dokumenteninhalt im body -->
+	    <h1>Question and answers</h1>
+      <p> </p>
+      <h2> unordered list </h2>
+      <p> </p>
+      <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      </ul>
+      <p> </p>
+      <h2>An Ordered HTML List</h2>
+      <p> </p>
+      <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      </ol>
+		   
+	</body>
+</html>
