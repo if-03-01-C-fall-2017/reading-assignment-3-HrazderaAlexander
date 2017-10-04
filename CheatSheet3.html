@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="de";
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CheatSheet3</title>
+	</head>
+	</body>
+	    <!-- Sichtbarer Dokumenteninhalt im body -->
+	    <h1>Question and answers</h1>
+      <p> </p>
+      <h2> unordered list </h2>
+      <p> </p>
+      <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      </ul>
+      <p> </p>
+      <h2>An Ordered HTML List</h2>
+      <p> </p>
+      <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+      </ol>
+      <p> </p>
+      <h2> description list</h2>
+      <p> </p>
+      <dl>
+      <dt>Coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt>Milk</dt>
+      <dd>- white cold drink</dd>
+      </dl>
+      <p> </p>
+      <h2> list item</h2>
+      <p> </p>
+      <ul>
+      <li>Coffee</li>
+      <li>Tea
+      <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+      </ul>
+      </li>
+      <li>Milk</li>
+      </ul>
+      <p> </p>
+      <h2> Chapter Summary</h2>
+      <p> </p>
+      <p> Use the HTML <ul> element to define an unordered list</p>
+      <p> Use the CSS list-style-type property to define the list item marker</p>
+      <p> Use the HTML <ol> element to define an ordered list</p>
+      <p> Use the HTML type attribute to define the numbering type</p>
+      <p> Use the HTML <li> element to define a list item</p>
+      <p> Use the HTML <dl> element to define a description list</p>
+      <p> Use the HTML <dt> element to define the description term</p>
+      <p> Use the HTML <dd> element to describe the term in a description list</p>
+      <p> Lists can be nested inside lists</p>
+      <p> List items can contain other HTML elements</p>
+      <p> Use the CSS property float:left or display:inline to display a list horizontally</p>
+      <p> </p>
+      <h2> Chapter Summary</h2>
+      <p> </p>
+      <h2> Different List Item Markers</h2>
+      <p> </p>
+      <p> ul.a {
+    	list-style-type: circle;
+	}
+
+	ul.b {
+    	list-style-type: square;
+	}
+
+	ol.c {
+    	list-style-type: upper-roman;
+	}
+
+	ol.d {
+    	list-style-type: lower-alpha;
+	}</p>
+	<p> </p>
+	<h2> An Image as The List Item Marker</h2>
+	<p> </p>
+	<p> ul {
+    		list-style-image: url('sqpurple.gif');
+	}</p>
+	<p> </p>
+	<h2> Position The List Item Markers</h2>
+	<p> </p>
+	<p> ul {
+    		list-style-position: inside;
+	}</p>
+	<p> </p>
+	<h2> Remove Default Settings</h2>
+	<p> </p>
+	<p> ul {
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+	}</p>
+	<p> </p>
+	<h2> List - Shorthand property</h2>
+	<p> </p>
+	<p> ul {
+    		list-style: square inside url("sqpurple.gif");
+	}</p>
+	<p> </p>
+	<h2> Styling List With Colors</h2>
+	<p> </p>
+	<p> ol {
+    		background: #ff9999;
+    		padding: 20px;
+		}
+
+		ul {
+    		background: #3399ff;
+   		 padding: 20px;
+		}
+
+		ol li {
+    		background: #ffe5e5;
+    		padding: 5px;
+    		margin-left: 35px;
+		}
+
+		ul li {
+    		background: #cce5ff;
+    		margin: 5px;
+	}</p>
+	<p> </p>
+	<h2> Defining an HTML Table</h2>
+	<p> </p>
+	<p> <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table></p>
+	<p> </p>
+	<h2> HTML Table - Adding a Border</h2>
+	<p> </p>
+	<p> table, th, td {
+    border: 1px solid black;
+}</p>
+	<p> </p>
+	<h2> HTML Table - Collapsed Borders</h2>
+	<p> </p>
+	<p> table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}</p>
+	<p> </p>
+	<h2> HTML Table - Adding Cell Padding</h2>
+	<p> </p>
+	<p> th, td {
+    padding: 15px;
+}</p>
+	<p> </p>
+	<h2> HTML Table - Adding Cell Padding</h2>
+	<p> </p>
+	<p> th {
+    text-align: left;
+}</p>
+	<p> </p>
+	<h2> HTML Table - Adding Border Spacing</h2>
+	<p> </p>
+	<p> table {
+    border-spacing: 5px;
+}</p>
+	<p> </p>
+	<h2> HTML Table - Cells that Span Many Columns</h2>
+	<p> </p>
+	<p> <table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+</table></p>
+	<p> </p>
+	<h2> HTML Table - Cells that Span Many Rows</h2>
+	<p> </p>
+	<p> <table style="width:100%">
+  <tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+</table></p>
+	<p> </p>
+	<h2> HTML Table - Adding a Caption</h2>
+	<p> </p>
+	<p> <table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table></p>
+	<p> </p>
+	<h2> A Special Style for One Table</h2>
+	<p> </p>
+	<p> <table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table></p>
+	<p> </p>
+	<h2> Now you can define a special style for this table:</h2>
+	<p> </p>
+	<p> table#t01 {
+    width: 100%; 
+    background-color: #f1f1c1;
+}</p>
+	<p> </p>
+	<h2> And add more styles:</h2>
+	<p> </p>
+	<p> table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}</p>
+	<p> </p>
+	<h2> Table Borders</h2>
+	<p> </p>
+	<p> table, th, td {
+   border: 1px solid black;
+}</p>
+	<p> </p>
+	<h2> Collapse Table Borders</h2>
+	<p> </p>
+	<p> table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}</p>
+	<p> </p>
+	<h2> Horizontal Alignment</h2>
+	<p> </p>
+	<p> th {
+    text-align: left;
+}</p>
+	<p> </p>
+	<h2> Vertical Alignment</h2>
+	<p> </p>
+	<p> td {
+    height: 50px;
+    vertical-align: bottom;
+}</p>
+	<p> </p>
+	<h2> Table Padding</h2>
+	<p> </p>
+	<p> th, td {
+    padding: 15px;
+    text-align: left;
+}</p>
+	<p> </p>
+	<h2> Horizontal Dividers</h2>
+	<p> </p>
+	<p> th, td {
+    border-bottom: 1px solid #ddd;
+}</p>
+	<p> </p>
+	<h2> Hoverable Table</h2>
+	<p> </p>
+	<p> tr:hover {background-color: #f5f5f5}</p>
+	<p> </p>
+	<h2> Striped Tables</h2>
+	<p> </p>
+	<p> tr:nth-child(even) {background-color: #f2f2f2}</p>
+	<p> </p>
+	<h2> Table Color</h2>
+	<p> </p>
+	<p> th {
+    background-color: #4CAF50;
+    color: white;
+}</p>
+	<p> </p>
+	<h2> Responsive Table</h2>
+	<p> </p>
+	<p> <div style="overflow-x:auto;">
+
+<table>
+... table content ...
+</table>
+
+</div></p>
+	<p> </p>
+	
+		   
+	</body>
+</html>
